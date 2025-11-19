@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <style>
+        /* element selector */
+        div {
+            /* background-color: red; */
+        }
+        /* class selector */
+        .red {
+            background-color: red;
+        }
+        /* id selector */
+        #blue {
+            background-color: blue;
+        }
+        /* descended selector */
+        div p {
+            color: yellow;
+        }
+        /* universal selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /* psuedo class selector */
+        a :visited
+        {
+            color:yellow;
+        }
+        a :active
+        {
+            color:green;
+        }
+        a :hover    
+        {
+            color:red;
+        }
+        p :first-child
+        {
+            font-size:20px;
+            background-color: aqua;
+        }       
+    </style>
+</head>
+<body>
+    <div class="red">
+        i am index.html
+    </div>
+    <div id="blue">
+        <article>
+        thisn is second div
+        <p>my name is zaid</p>
+        </article>
+    </div>
+    <a href="https://www.google.com">go to google</a>
+    <main class="one">
+        <p>my name is zack</p>
+    </main>
+</body>
+</html>
